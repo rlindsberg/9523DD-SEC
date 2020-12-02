@@ -1,0 +1,7 @@
+./solution3.py < my.fifo | ./main.elf 2>my.fifo
+Name? 
+Password? 
+Hello Haha I got your password!
+non authorized
+Segmentation fault (core dumped)
+make: *** [Makefile:12: attack] Error 139
