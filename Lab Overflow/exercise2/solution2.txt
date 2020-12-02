@@ -3,6 +3,6 @@
 # Forge two command line arguments that
 # allow you to be authenticated
 # with a wrong password.
-name pass
+rootrootroot root
 
 # end
