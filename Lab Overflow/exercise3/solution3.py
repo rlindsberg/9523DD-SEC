@@ -66,3 +66,5 @@ writeStr("\n")
 writeStr("wrong password")
 writeStr("\n")
 
+# a very good reference
+# https://insecure.org/stf/smashstack.html
